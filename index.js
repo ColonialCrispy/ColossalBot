@@ -48,7 +48,7 @@ client.on(`guildMemberAdd`, member => {
     if (!jChannel) return;
     const gembed = new discord.RichEmbed()
     gembed.setTitle(`${member.user.username} has joined the server!`)
-    gembed.setColor(`RANDOM`)
+    gembed.setColor(`GREEN`)
     gembed.setThumbnail(mAvatar)
     gembed.addField(`Name`, `${member.user.username}`)
     gembed.addField(`Member count`, member.guild.memberCount)
@@ -65,7 +65,7 @@ client.on(`guildMemberRemove`, member => {
     if (!jChannel) return;
     const gembed = new discord.RichEmbed()
     gembed.setTitle(`${member.user.username} has left the server!`)
-    gembed.setColor(`RANDOM`)
+    gembed.setColor(`RED`)
     gembed.setThumbnail(mAvatar)
     gembed.addField(`Name`, `${member.user.username}`)
     gembed.addField(`Member count`, member.guild.memberCount)
