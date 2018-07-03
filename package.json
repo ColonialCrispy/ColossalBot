@@ -26,6 +26,9 @@
         "superagent": "^3.8.3",
         "weather-js": "^2.0.0",
         "youtube-search": "^1.1.1",
-        "ytdl-core": "^0.20.4"
+        "ytdl-core": "^0.20.4",
+        "discord.js": "^11.3.2",
+        "fs": "0.0.1-security",
+        "ms": "^2.1.1"
     }
 }
