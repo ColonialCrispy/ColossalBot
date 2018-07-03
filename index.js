@@ -407,7 +407,7 @@ client.on ("message", (message) => {
         )})
     }
 
-    if (message.content.startsWith(`m!weeb`)) {
+    if (message.content.startsWith(`c!weeb`)) {
         let mUser = message.mentions.users.first()
         const args29 = cont.slice(1)
 
@@ -434,7 +434,7 @@ client.on ("message", (message) => {
         )})
     }
 
-    if (message.content.startsWith(`m!minecraft`)) {
+    if (message.content.startsWith(`c!minecraft`)) {
         let mUser = message.mentions.users.first()
         const args29 = cont.slice(1)
 
@@ -606,7 +606,7 @@ client.on ("message", (message) => {
     }
     
 
-    if (message.content.startsWith(`m!kick`)) {
+    if (message.content.startsWith(`c!kick`)) {
         const args7 = cont.slice(1)
         const args8 = args7.join(" ")
         const kChannel = message.guild.channels.find(`name`, `logs`)
@@ -663,7 +663,7 @@ client.on ("message", (message) => {
         )})
     }
 
-    if (message.content.startsWith(`m!kiss`)) {
+    if (message.content.startsWith(`c!kiss`)) {
         let mUser = message.mentions.users.first()
         let mUser2 = message.mentions.users.last()
         const args29 = cont.slice(1)
